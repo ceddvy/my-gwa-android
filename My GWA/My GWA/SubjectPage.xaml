@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:my_gwa="clr-namespace:My_GWA"
+             x:Class="My_GWA.SubjectPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout>
+        <StackLayout.Background>
+            <LinearGradientBrush StartPoint="0,0"
+                                     EndPoint="1,1">
+                <GradientStop Color="#1e3b70" Offset="0.1"/>
+                <GradientStop Color="#29539b" Offset="1.0"/>
+            </LinearGradientBrush>
+        </StackLayout.Background>
+        
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <Label Text="My"
+               TextColor="White" 
+               FontFamily="Verdana" 
+               FontSize="50" 
+               HorizontalOptions="Center" 
+               HorizontalTextAlignment="Center" 
+               TextTransform="Uppercase" 
+               VerticalOptions="StartAndExpand" 
+               Padding="0,20,0,0" 
+               FontAttributes="Bold"></Label>
+
+                <Image Source="@drawable/mygwa.webp"
+                   WidthRequest="100"
+                   HeightRequest="100"></Image>
+        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Frame CornerRadius="50" BorderColor="#000000">
+                    <Frame.Background>
+                        <LinearGradientBrush StartPoint="0,0"
+                                     EndPoint="1,1">
+                            <GradientStop Color="#d7e1ec" Offset="0.1"/>
+                            <GradientStop Color="#ffffff" Offset="1.0"/>
+                        </LinearGradientBrush>
+                    </Frame.Background>
+                    <Label Text="This mobile application is a calculator for computing the General Weighted Average of the students." 
+                   FontSize="24" HorizontalTextAlignment="Center" 
+                   HorizontalOptions="CenterAndExpand" 
+                   VerticalOptions="CenterAndExpand" 
+                   VerticalTextAlignment="Center" 
+                   FontAttributes="Italic" 
+                   FlowDirection="LeftToRight" 
+                   TextColor="Black"></Label>
+
+                </Frame>
+
+                <StackLayout Orientation ="Vertical" Padding="0,10,0,0">
+                    <Label Text="Number of Subjects"
+                   TextColor="White" FontSize="25" 
+                   HorizontalTextAlignment="Center" 
+                   Padding="0,10,0,0"
+                   ></Label>
+                    <my_gwa:CustomEntry MaxLength="2"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    x:Name="inputArea"
+                                    TextColor="White" 
+                                    HorizontalTextAlignment="Center" 
+                                    HorizontalOptions="CenterAndExpand" 
+                                    VerticalOptions="CenterAndExpand" 
+                                    Placeholder="0" 
+                                    Focused="inputArea_Focused"
+                                    EntryBorderColor="White"
+                                    WidthRequest="120"
+                                    EntryCornerRadius="30"
+                                    PlaceholderColor="#B1B0B0"
+                                    Unfocused="inputArea_Unfocused"
+                                    FontSize="20" Margin="10,0,0,0"
+                                    TextChanged="inputArea_TextChanged"></my_gwa:CustomEntry>
+                </StackLayout>
+
+                <StackLayout VerticalOptions="CenterAndExpand">
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Button x:Name="btnOne"
+                    Text="1"
+                    CornerRadius="50" BorderWidth="100" HeightRequest="60" WidthRequest="60"
+                    BackgroundColor="#032f55"
+                    TextColor ="White" Margin="30,0,20,0" FontSize="30" Clicked="NumberClicked"
+                    ></Button>
+                        <Button x:Name="btnTwo"
+                    Text="2"
+                    CornerRadius="50" BorderWidth="100" HeightRequest="60" WidthRequest="60"
+                    BackgroundColor="#032f55"
+                    TextColor ="White" Margin="-10,0,20,0" FontSize="30" Clicked="NumberClicked"
+                    ></Button>
+                        <Button x:Name="btnThree"
+                    Text="3"
+                    CornerRadius="50" BorderWidth="100" HeightRequest="60" WidthRequest="60"
+                    BackgroundColor="#032f55"
+                    TextColor ="White" FontSize="30" Clicked="NumberClicked" Margin="-10,0,20,0"
+                    ></Button>
+                        <Button x:Name="btnFour"
+                    Text="4"
+                    CornerRadius="50" BorderWidth="100" HeightRequest="60" WidthRequest="60"
+                    BackgroundColor="#032f55"
+                    TextColor ="White" Margin="-10,0,30,0" FontSize="30" Clicked="NumberClicked"
+                    ></Button>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Button x:Name="btnFive"
+                    Text="5"
+                    CornerRadius="50" BorderWidth="100" HeightRequest="60" WidthRequest="60"
+                    BackgroundColor="#032f55"
+                    TextColor ="White" Margin="30,0,20,0" FontSize="30" Clicked="NumberClicked"
+                    ></Button>
+                        <Button x:Name="btnSix"
+                    Text="6"
+                    CornerRadius="50" BorderWidth="100" HeightRequest="60" WidthRequest="60"
+                    BackgroundColor="#032f55" FontSize="30"
+                    TextColor ="White" Clicked="NumberClicked" Margin="-10,0,20,0"
+                    ></Button>
+                        <Button x:Name="btnSeven"
+                    Text="7"
+                    CornerRadius="50" BorderWidth="100" HeightRequest="60" WidthRequest="60"
+                    BackgroundColor="#032f55"
+                    TextColor ="White" Margin="-10,0,30,0" FontSize="30" Clicked="NumberClicked"></Button>
+                        <Button x:Name="btnEigth"
+                    Text="8"
+                    CornerRadius="50" BorderWidth="100" HeightRequest="60" WidthRequest="60"
+                    BackgroundColor="#032f55"
+                    TextColor ="White" FontSize="30" Clicked="NumberClicked" Margin="-20,0,30,0"
+                    ></Button>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+
+
+                        <Button x:Name="btnNine"
+                    Text="9"
+                    CornerRadius="50" BorderWidth="100" HeightRequest="60" WidthRequest="60"
+                    BackgroundColor="#032f55"
+                    TextColor ="White" FontSize="30" Clicked="NumberClicked" Margin="30,0,20,0"
+                    ></Button>
+                        <Button x:Name="btnZero"
+                    Text="0"
+                    CornerRadius="50" BorderWidth="100" HeightRequest="60" WidthRequest="60"
+                    BackgroundColor="#032f55"
+                    TextColor ="White" FontSize="30" Clicked="NumberClicked" Margin="-10,0,20,0"
+                    ></Button>
+                        <Button Text="Clear"
+                        TextColor="White" CornerRadius="30"
+                        Clicked="ClearBtn_Clicked" x:Name="ClearBtn"  
+                        WidthRequest="145" 
+                        Padding="0" 
+                        Margin="-10,0,20,0"  
+                        BorderWidth="2" 
+                        FontSize="20">
+                            <Button.Background>
+                                <LinearGradientBrush StartPoint="0,0"
+                                     EndPoint="1,1">
+                                    <GradientStop Color="#eb3941" Offset="0.1"/>
+                                    <GradientStop Color="#f15e64" Offset="1.0"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button> 
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout>
+                    <Button Clicked="Button_Clicked" 
+                        Text="Continue" FontSize="Body" 
+                        TextColor="White" 
+                        TextTransform="Uppercase" 
+                        CornerRadius="25" 
+                        HorizontalOptions="CenterAndExpand" 
+                        VerticalOptions="StartAndExpand" 
+                        Visual="Material" 
+                        FontAttributes="Bold" 
+                        Padding="0" HeightRequest="50" WidthRequest="500" Margin="0">
+                        <Button.Background>
+                            <LinearGradientBrush StartPoint="0,0"
+                                     EndPoint="1,1">
+                                <GradientStop Color="#0ba360" Offset="0.1"/>
+                                <GradientStop Color="#3cba92" Offset="1.0"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="Center" Margin="0">
+            <Label Text="v1.0.8"
+                           TextColor="LightGray"
+                           FontSize="Caption"
+                           VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" VerticalTextAlignment="Center"></Label>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

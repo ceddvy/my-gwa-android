@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:my_gwa="clr-namespace:My_GWA"
+             x:Class="My_GWA.MainArea"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <StackLayout.Background>
+                <LinearGradientBrush StartPoint="0,0"
+                                     EndPoint="1,1">
+                    <GradientStop Color="#1e3b70" Offset="0.1"/>
+                    <GradientStop Color="#29539b" Offset="1.0"/>
+                </LinearGradientBrush>
+            </StackLayout.Background>
+            
+            <StackLayout Orientation="Horizontal">
+                <StackLayout.Resources>
+                    <ResourceDictionary>
+                        <Style TargetType="Button">
+                            <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                        </Style>
+                    </ResourceDictionary>
+                </StackLayout.Resources>
+                
+                <Button BackgroundColor="Transparent" CornerRadius="25" WidthRequest="60" HeightRequest="40" BorderWidth="80" Padding="0" Margin="5,20,0,0" x:Name="backBtn" Clicked="backBtn_Clicked">
+                    <Button.Image>
+                        <OnPlatform x:TypeArguments="FileImageSource"
+                                    Android="back.webp"
+                                    />
+                    </Button.Image>
+                </Button>
+                <Label Text="You have 12 subjects." TextColor="White" FontSize="25" Padding="0,23,50,0" HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" x:Name="lblSubjects"></Label>
+                
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="90" Margin="0,20,0,0">
+                <Label Text="Subjects" TextColor="White" FontSize="18" FontAttributes="Bold"></Label>
+                <Label Text="Units" TextColor="White" FontSize="18" FontAttributes="Bold"></Label>
+            </StackLayout>
+
+
+            <ScrollView>
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="40" x:Name="Row1">
+                        <my_gwa:CustomEntry Placeholder="Input Grade"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="subject1"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="subject1_Unfocused"
+                                            Keyboard="Numeric" ReturnType="Default"
+                                    >
+
+                        </my_gwa:CustomEntry>
+                        <my_gwa:CustomEntry Placeholder="Input Unit"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="unit1"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="unit1_Unfocused"
+                                            
+                                    ></my_gwa:CustomEntry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="40" x:Name="Row2">
+                        <my_gwa:CustomEntry Placeholder="Input Grade"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="subject2"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="subject2_Unfocused"
+                                            
+                                            
+                                    ></my_gwa:CustomEntry>
+                        <my_gwa:CustomEntry Placeholder="Input Unit"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="unit2"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="unit2_Unfocused"
+                                            
+                                    ></my_gwa:CustomEntry>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="40" x:Name="Row3">
+                        <my_gwa:CustomEntry Placeholder="Input Grade"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="subject3"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="subject3_Unfocused"
+                                            
+                                            
+                                    ></my_gwa:CustomEntry>
+                        <my_gwa:CustomEntry Placeholder="Input Unit"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="unit3"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                             Unfocused="unit3_Unfocused"
+                                            
+                                    ></my_gwa:CustomEntry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="40" x:Name="Row4">
+                        <my_gwa:CustomEntry Placeholder="Input Grade"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="subject4"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                             Unfocused="subject4_Unfocused"
+                                    ></my_gwa:CustomEntry>
+                        <my_gwa:CustomEntry Placeholder="Input Unit"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="unit4"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="unit4_Unfocused"
+                                    ></my_gwa:CustomEntry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="40" x:Name="Row5">
+                        <my_gwa:CustomEntry Placeholder="Input Grade"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="subject5"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                             Unfocused="subject5_Unfocused"
+                                             
+                                    ></my_gwa:CustomEntry>
+                        <my_gwa:CustomEntry Placeholder="Input Unit"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="unit5"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="unit5_Unfocused"
+                                    ></my_gwa:CustomEntry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="40" x:Name="Row6">
+                        <my_gwa:CustomEntry Placeholder="Input Grade"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="subject6"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                             Unfocused="subject6_Unfocused"
+                                    ></my_gwa:CustomEntry>
+                        <my_gwa:CustomEntry Placeholder="Input Unit"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="unit6"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="unit6_Unfocused"
+                                    ></my_gwa:CustomEntry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="40" x:Name="Row7">
+                        <my_gwa:CustomEntry Placeholder="Input Grade"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="subject7"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="subject7_Unfocused"
+                                             
+                                    ></my_gwa:CustomEntry>
+                        <my_gwa:CustomEntry Placeholder="Input Unit"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="unit7"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="unit7_Unfocused"
+                                    ></my_gwa:CustomEntry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="40" x:Name="Row8">
+                        <my_gwa:CustomEntry Placeholder="Input Grade"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="subject8"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="subject8_Unfocused"
+                                             
+                                    ></my_gwa:CustomEntry>
+                        <my_gwa:CustomEntry Placeholder="Input Unit"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="unit8"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="unit8_Unfocused"
+                                    ></my_gwa:CustomEntry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="40" x:Name="Row9">
+                        <my_gwa:CustomEntry Placeholder="Input Grade"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="subject9"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="subject9_Unfocused"
+                                             
+                                    ></my_gwa:CustomEntry>
+                        <my_gwa:CustomEntry Placeholder="Input Unit"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="unit9"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="unit9_Unfocused"
+                                    ></my_gwa:CustomEntry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="40" x:Name="Row10">
+                        <my_gwa:CustomEntry Placeholder="Input Grade"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="subject10"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="subject10_Unfocused"
+                                             
+                                    ></my_gwa:CustomEntry>
+                        <my_gwa:CustomEntry Placeholder="Input Unit"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="unit10"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="unit10_Unfocused"
+                                    ></my_gwa:CustomEntry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="40" x:Name="Row11">
+                        <my_gwa:CustomEntry Placeholder="Input Grade"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="subject11"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="subject11_Unfocused"
+                                             
+                                    ></my_gwa:CustomEntry>
+                        <my_gwa:CustomEntry Placeholder="Input Unit"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="unit11"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="unit11_Unfocused"
+                                    ></my_gwa:CustomEntry>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="40" x:Name="Row12">
+                        <my_gwa:CustomEntry Placeholder="Input Grade"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="subject12"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="subject12_Unfocused"
+                                    ></my_gwa:CustomEntry>
+                        <my_gwa:CustomEntry Placeholder="Input Unit"
+                                    PlaceholderColor="#B1B0B0"
+                                    MaxLength="4"
+                                    ReturnType="Default"
+                                    Keyboard="Numeric"
+                                    FontSize="20"
+                                    EntryBorderColor="White"
+                                    x:Name="unit12"
+                                    EntryCornerRadius="30"
+                                            TextColor="White"
+                                            HorizontalTextAlignment="Center"
+                                            TextChanged="subject1_TextChanged"
+                                            Unfocused="unit12_Unfocused"
+                                            
+                                    ></my_gwa:CustomEntry>
+                    </StackLayout>
+
+                    <Button Clicked="Button_Clicked" 
+                        Text="Compute" FontSize="Body" 
+                        TextColor="White"  
+                        TextTransform="Uppercase" 
+                        CornerRadius="25" 
+                        HorizontalOptions="FillAndExpand" 
+                        VerticalOptions="StartAndExpand" 
+                        Visual="Material" 
+                        FontAttributes="Bold" 
+                        Padding="0" HeightRequest="40" WidthRequest="-1">
+                        <Button.Background>
+                            <LinearGradientBrush StartPoint="0,0"
+                                     EndPoint="1,1">
+                                <GradientStop Color="#0ba360" Offset="0.1"/>
+                                <GradientStop Color="#3cba92" Offset="1.0"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+
+                </StackLayout>
+
+            </ScrollView>
+            <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="Center" Margin="0">
+                <Label Text="© 2020 BSC Tech"
+                           TextColor="LightGray"
+                           FontSize="Caption"
+                           VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" VerticalTextAlignment="Center" x:Name="copyWrite"></Label>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

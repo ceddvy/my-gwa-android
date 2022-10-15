@@ -1,0 +1,132 @@
+D:\source\repos\My GWA\My GWA\My GWA.Android\bin\Debug\My GWA.Android.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\bin\Debug\My GWA.Android.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\bin\Debug\com.bsctech.my_gwa.apk
+D:\source\repos\My GWA\My GWA\My GWA.Android\bin\Debug\com.bsctech.my_gwa.aab
+D:\source\repos\My GWA\My GWA\My GWA.Android\bin\Debug\com.bsctech.my_gwa-Signed.aab
+D:\source\repos\My GWA\My GWA\My GWA.Android\bin\Debug\com.bsctech.my_gwa-Signed.apk
+D:\source\repos\My GWA\My GWA\My GWA.Android\bin\Debug\com.bsctech.my_gwa-Signed.apk.idsig
+D:\source\repos\My GWA\My GWA\My GWA.Android\bin\Debug\My GWA.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\bin\Debug\My GWA.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\MonoAndroid,Version=v10.0.AssemblyAttributes.cs
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\build.props
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\adb.props
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\My GWA.Android.csproj.AssemblyReference.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\stamp\_BuildLibraryImportsCache.stamp
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\res.flag
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\lp\38\jl\files.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\lp\40\jl\files.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\lp\86\jl\files.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\lp\92\jl\files.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\lp\99\jl\files.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\lp\100\jl\files.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\lp\103\jl\files.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\lp\110\jl\files.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\lp\113\jl\files.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\lp\114\jl\files.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\lp\115\jl\files.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\lp\116\jl\files.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\lp\117\jl\files.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\lp\120\jl\files.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\R.txt
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\R.cs.flag
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\My GWA.Android.csproj.CoreCompileInputs.cache
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\My GWA.Android.csproj.CopyComplete
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\My GWA.Android.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\My GWA.Android.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\bin\com.bsctech.my_gwa.apk
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\bin\base.zip
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\bin\com.bsctech.my_gwa.aab
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\bin\com.bsctech.my_gwa.apks
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\res\drawable\back.webp
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\res\drawable\mygwa.webp
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\res\layout\tabbar.xml
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\res\layout\toolbar.xml
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\res\values\styles.xml
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\res\values\colors.xml
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\res\mipmap-anydpi-v26\icon.xml
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\res\mipmap-anydpi-v26\icon_round.xml
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\uploadflags.txt
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\resolvedassemblies.hash
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\link.flag
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\FormsViewGroup.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\FormsViewGroup.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Java.Interop.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Mono.Android.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Mono.Android.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Mono.Security.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Mono.Security.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\mscorlib.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\mscorlib.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\My GWA.Android.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\My GWA.Android.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\My GWA.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\My GWA.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.Core.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.Core.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.Drawing.Common.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.Drawing.Common.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.Net.Http.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.Net.Http.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.Numerics.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.Numerics.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.Runtime.Serialization.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.Runtime.Serialization.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.ServiceModel.Internals.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.ServiceModel.Internals.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.Xml.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\System.Xml.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Activity.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Activity.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.AppCompat.AppCompatResources.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.AppCompat.AppCompatResources.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.AppCompat.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.AppCompat.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.CardView.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.CardView.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.CoordinatorLayout.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.CoordinatorLayout.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Core.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Core.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.DrawerLayout.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.DrawerLayout.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Fragment.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Fragment.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Legacy.Support.Core.UI.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Legacy.Support.Core.UI.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Lifecycle.Common.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Lifecycle.Common.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Lifecycle.LiveData.Core.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Lifecycle.LiveData.Core.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Lifecycle.ViewModel.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Lifecycle.ViewModel.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Loader.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.Loader.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.RecyclerView.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.RecyclerView.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.SavedState.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.SavedState.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.SwipeRefreshLayout.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.SwipeRefreshLayout.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.ViewPager.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.AndroidX.ViewPager.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.Essentials.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.Essentials.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.Forms.Core.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.Forms.Core.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.Forms.PancakeView.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.Forms.Platform.Android.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.Forms.Platform.Android.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.Forms.Platform.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.Forms.Xaml.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.Forms.Xaml.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.Google.Android.Material.dll
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\assets\Xamarin.Google.Android.Material.pdb
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\typemaps.arm64-v8a.s
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\typemaps.armeabi-v7a.s
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\typemaps.x86.s
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\typemaps.x86_64.s
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\typemaps.armeabi-v7a-shared.inc
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\android\typemaps.shared.inc
+D:\source\repos\My GWA\My GWA\My GWA.Android\obj\Debug\100\AndroidManifest.xml

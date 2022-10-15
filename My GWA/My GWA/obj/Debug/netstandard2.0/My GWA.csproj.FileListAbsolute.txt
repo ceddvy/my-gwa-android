@@ -1,0 +1,37 @@
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\bin\Debug\netstandard2.0\My GWA.deps.json
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\bin\Debug\netstandard2.0\My GWA.dll
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\bin\Debug\netstandard2.0\ref\My GWA.dll
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\bin\Debug\netstandard2.0\My GWA.pdb
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\My GWA.AssemblyInfoInputs.cache
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\My GWA.AssemblyInfo.cs
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\My GWA.csproj.CoreCompileInputs.cache
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\My GWA.dll
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\ref\My GWA.dll
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\My GWA.pdb
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\SubjectPage.xaml.g.cs
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\My GWA.csproj.CopyComplete
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\MainArea.xaml.g.cs
+C:\Users\CEDDYY\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\My GWA.csprojAssemblyReference.cache
+D:\source\repos\My GWA\My GWA\My GWA\bin\Debug\netstandard2.0\My GWA.deps.json
+D:\source\repos\My GWA\My GWA\My GWA\bin\Debug\netstandard2.0\My GWA.dll
+D:\source\repos\My GWA\My GWA\My GWA\bin\Debug\netstandard2.0\ref\My GWA.dll
+D:\source\repos\My GWA\My GWA\My GWA\bin\Debug\netstandard2.0\My GWA.pdb
+D:\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\My GWA.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\MainArea.xaml.g.cs
+D:\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\SubjectPage.xaml.g.cs
+D:\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\My GWA.AssemblyInfoInputs.cache
+D:\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\My GWA.AssemblyInfo.cs
+D:\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\My GWA.csproj.CoreCompileInputs.cache
+D:\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\XamlC.stamp
+D:\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\My GWA.dll
+D:\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\ref\My GWA.dll
+D:\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\My GWA.pdb
+D:\source\repos\My GWA\My GWA\My GWA\obj\Debug\netstandard2.0\My GWA.csproj.AssemblyReference.cache
